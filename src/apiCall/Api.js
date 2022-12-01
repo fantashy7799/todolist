@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const LoginApi = async (data) => {
   const res = await axios.post(
-    'http://10.20.55.249:80/api/login',
+    'https://10.20.55.249:80/api/login',
     JSON.stringify(data),
     {
       headers: { 
@@ -17,7 +17,7 @@ export const LoginApi = async (data) => {
 
 export const LogoutApi = async (token) => {
   const res = axios.get(
-    `https://checkpoint360webgroup.tk/api/logout`,
+    `https://10.20.55.249:80/api/logout`,
     {
       headers: {
         "Accept": "application/json",
@@ -30,7 +30,7 @@ export const LogoutApi = async (token) => {
 
 export const RegisApi = async (data) => {
   const res = await axios.post(
-    'http://10.20.55.249:80/api/register',
+    'https://10.20.55.249:80/api/register',
     data,
     {
       headers: {
@@ -58,7 +58,7 @@ export const GetDataList = async (token) => {
 
 export const AddTaskApi = async (data, token) => {
   const res = await axios.post(
-    'http://10.20.55.249:80/api/task/new', 
+    'https://10.20.55.249:80/api/task/new', 
     data,
     {
       headers: {
@@ -72,7 +72,7 @@ export const AddTaskApi = async (data, token) => {
 
 export const DeleteTaskApi = async (idTask, token) => {
   const res = await axios.delete(
-    `http://10.20.55.249:80/api/task/${idTask}`,
+    `https://10.20.55.249:80/api/task/${idTask}`,
     {
       headers: {
         "Accept": "application/json",
@@ -85,7 +85,7 @@ export const DeleteTaskApi = async (idTask, token) => {
 
 export const ChangeStatusApi = async (idTask, token) => {
   const res = await axios.get(
-    `http://10.20.55.249:80/api/task/${idTask}/change-status`,
+    `https://10.20.55.249:80/api/task/${idTask}/change-status`,
     {
       headers: {
         "Accept": "application/json",
@@ -98,7 +98,7 @@ export const ChangeStatusApi = async (idTask, token) => {
 
 export const EditTaskApi = async (idTask, token, data) => {
   const res = await axios.post(
-    `http://10.20.55.249:80/api/task/${idTask}`,
+    `https://10.20.55.249:80/api/task/${idTask}`,
     data,
     {
       headers: {
@@ -112,7 +112,7 @@ export const EditTaskApi = async (idTask, token, data) => {
 
 export const ChangePassApi = async (data, token) => {
   const res = await axios.post(
-    `http://10.20.55.249:80/api/change-password`,
+    `https://10.20.55.249:80/api/change-password`,
     data,
     {
       headers: {
@@ -126,7 +126,7 @@ export const ChangePassApi = async (data, token) => {
 
 export const ResetPassRequestApi = async (data) => {
   const res = await axios.post(
-    'http://10.20.55.249:80/api/reset-password-request',
+    'https://10.20.55.249:80/api/reset-password-request',
     data,
     {
       headers: {
@@ -139,7 +139,7 @@ export const ResetPassRequestApi = async (data) => {
 
 export const ResetPassApi = async (data) => {
   const res = await axios.post(
-    `http://10.20.55.249:80/api/reset-password`,
+    `https://10.20.55.249:80/api/reset-password`,
     data,
     {
       headers: {
