@@ -1,0 +1,32 @@
+.boxChangePass{
+  width: 120px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+  justify-content: space-around;
+}
+
+.boxChangePass__Input {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxChangePass__Button {
+  display: flex;
+  flex-direction: row;
+}
+
+.--InputChange {
+  max-width: 130px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.--ButtonChange {
+  margin-top: 5px;
+  height: 25px;
+  flex: 1;
+  border-radius: 10px;
+}

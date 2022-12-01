@@ -1,0 +1,29 @@
+.box {
+  margin: 10px;
+}
+
+.iconDaT {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.input__Radio {
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.__inputTitle {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.input__DateTime {
+  margin-left: 30px;
+}
+
+.input__Description {
+  margin-left: 30px;
+  width: 250px;
+  
+}

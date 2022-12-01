@@ -1,0 +1,36 @@
+.boxAddCard {
+  margin-left: 70px;
+  height: 120px;
+  width: 332px;
+  border: 1px solid rgba(60, 66, 87, 0.12);
+  border-radius: 5px;
+  position: absolute;
+  background-color: white;
+  flex-direction: column;
+}
+
+.__Box {
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+  margin: 5px;
+}
+
+.__input {
+  flex: 3;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.__button {
+  margin-top: -1px;
+  width: 30px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #fb2576
+}
+
+.--button {
+  justify-content: flex-end;
+}
+

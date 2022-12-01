@@ -1,0 +1,41 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 334px;
+}
+
+.--addNewCard {
+  height: auto;
+  width: auto;
+  margin-top: 10px;
+  position: absolute;
+  background-color: white;
+  color: rgb(24, 11, 11);
+  font-size:small;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.todoList__Todo {
+  margin-top: 40px;
+  height: auto;
+  width: auto;
+  border: 1px solid rgba(60, 66, 87, 0.12);
+  border-radius: 6px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+.todoList__Compl {
+  margin-top: 40px;
+  height: auto;
+  width: auto;
+  border: 1px solid rgba(60, 66, 87, 0.12);
+  border-radius: 6px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}

@@ -1,0 +1,29 @@
+.boxReset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxResetPassRequest {
+  display: flex;
+  height: 150px;
+  width: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-around;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+.boxResetPassRequest__input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.boxResetPassRequest__button {
+  width: 150px;
+  margin-top: 4px;
+  border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+
+.boxRegister {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height: 470px;
+  width: 400px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formRegister {
+  display: flex;
+  height: 70%;
+  width: 70%;
+  flex-direction: column;
+}
+
+.formRegister__name {
+  font-size: 17px;
+}
+
+.formRegister__user {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.formRegister__password {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.formRegister__button {
+  justify-content: center;
+  align-self: center;
+}
+
+.input {
+  width: 280px;
+  height: 35px;
+  margin-top: 4px;
+  border: none;
+  border-bottom: 0.5px solid black;
+}

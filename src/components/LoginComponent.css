@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.boxLogin {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height: 300px;
+  width: 400px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formLogin {
+  display: flex;
+  height: 70%;
+  width: 70%;
+  flex-direction: column;
+}
+
+.formLogin__user {
+  font-size: 17px;
+}
+
+.formLogin__password {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.formLogin__button {
+  justify-content: center;
+  align-self: center;
+}
+
+button {
+  width: 276px;
+  height: 35px;
+  background-color: rgb(84, 105, 212);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.input {
+  width: 280px;
+  height: 35px;
+  margin-top: 4px;
+  border: none;
+  border-bottom: 0.5px solid black;
+}
+
+.foodter {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.signUp {
+  color: blue;
+}
