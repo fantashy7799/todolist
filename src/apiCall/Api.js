@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Api = 'https://44d8-210-245-110-144.ap.ngrok.io'
+const Api = 'https://checkpoint360webgroup.tk'
 
 export const LoginApi = async (data) => {
   const res = await axios.post(
