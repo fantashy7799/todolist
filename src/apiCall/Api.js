@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const LoginApi = async (data) => {
   const res = await axios.post(
-    'https://checkpoint360webgroup.tk/api/login',
+    'http://10.20.55.249:80/api/login',
     JSON.stringify(data),
     {
       headers: { 
