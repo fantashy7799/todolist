@@ -1,4 +1,5 @@
 import './ResetPassRequest.css'
+import { Link } from 'react-router-dom'
 import { ResetPassRequestApi } from '../apiCall/Api'
 import { useState } from "react"
 
@@ -33,6 +34,9 @@ function ResetPassRequest() {
           onClick={() => handleOnClickSendMailRequest()}>
           Next step
         </button>
+      </div>
+      <div className='foodter __foodterLink'>
+          <span>Do you wanna go back to <Link className='signUp' to='/login'>Login?</Link></span>
       </div>
     </div>
   )
