@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Api = 'http://10.20.55.249:80'
+const Api = 'https://44d8-210-245-110-144.ap.ngrok.io'
 
 export const LoginApi = async (data) => {
   const res = await axios.post(
@@ -9,7 +9,8 @@ export const LoginApi = async (data) => {
     {
       headers: { 
         "Accept": "application/json",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }  
     }
   );
@@ -23,7 +24,8 @@ export const LogoutApi = async (token) => {
     {
       headers: {
         "Accept": "application/json",
-        "Authorization": `Bearer ${token}`
+        "Authorization": `Bearer ${token}`,
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -36,7 +38,8 @@ export const RegisApi = async (data) => {
     data,
     {
       headers: {
-        "Accept": "application/json"
+        "Accept": "application/json",
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   );
@@ -50,7 +53,8 @@ export const GetDataList = async (token) => {
     {
       headers: {
         "Accept": "application/json",
-        "Authorization": `Bearer ${token}`
+        "Authorization": `Bearer ${token}`,
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -65,7 +69,8 @@ export const AddTaskApi = async (data, token) => {
     {
       headers: {
         "Accept": "application/json",
-        "Authorization": `Bearer ${token}`
+        "Authorization": `Bearer ${token}`,
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -78,7 +83,8 @@ export const DeleteTaskApi = async (idTask, token) => {
     {
       headers: {
         "Accept": "application/json",
-        "Authorization": `Bearer ${token}`
+        "Authorization": `Bearer ${token}`,
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -91,7 +97,8 @@ export const ChangeStatusApi = async (idTask, token) => {
     {
       headers: {
         "Accept": "application/json",
-        "Authorization": `Bearer ${token}`
+        "Authorization": `Bearer ${token}`,
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -105,7 +112,8 @@ export const EditTaskApi = async (idTask, token, data) => {
     {
       headers: {
         "Accept": "application/json",
-        "Authorization": `Bearer ${token}`
+        "Authorization": `Bearer ${token}`,
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -119,7 +127,8 @@ export const ChangePassApi = async (data, token) => {
     {
       headers: {
         "Accept": "application/json",
-        "Authorization": `Bearer ${token}`
+        "Authorization": `Bearer ${token}`,
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -132,7 +141,8 @@ export const ResetPassRequestApi = async (data) => {
     data,
     {
       headers: {
-        "Accept": "application/json"
+        "Accept": "application/json",
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
@@ -145,7 +155,8 @@ export const ResetPassApi = async (data) => {
     data,
     {
       headers: {
-        "Accept": "application/json"
+        "Accept": "application/json",
+        "ngrok-skip-browser-warning": "Set and send an ngrok-skip-browser-warning request header with any value."
       }
     }
   )
